@@ -9,17 +9,10 @@ class MyApp extends StatelessWidget {
     //final wordPair = WordPair.random();
     return MaterialApp(
       title: 'Startup Name Generator',
+      theme: ThemeData(
+        primaryColor: Colors.white,
+      ),
       home: RandomWords(),
-      // home: Scaffold(
-      //   appBar: AppBar(
-      //     title: Text('Welcome to Flutter'),
-      //   ),
-      //   body: Center(
-      //     //child: const Text('Hello World'),
-      //     //child: Text(wordPair.asPascalCase),
-      //     child: RandomWords(),
-      //   ),
-      // ),
     );
   }
 }
